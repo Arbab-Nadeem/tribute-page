@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+html,
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #000;
+}
+#main {
+	max-width: 1020px;
+	color: #000;
+	margin: 0 auto;
+	padding: 0 1.6rem;
+}
+.header {
+	background-color: black;
+	color: #fff;
+	min-height: 20rem;
+	width: 100%;
+	height: 100%;
+}
+.nav-bar {
+	width: 100%;
+	text-align: left;
+	height: 3rem;
+	margin: 0;
+}
+.nav-bar ul {
+	padding: 10px 0;
+	padding: 1rem 6rem;
+	width: 100%;
+	list-style: none;
+}
+.nav-bar ul li {
+	padding: 0.4rem 1rem;
+	display: inline-block;
+}
+.nav-bar ul li a {
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+.nav-bar ul li:hover a {
+	color: #f5c17e;
+	transition: color 0.2s ease-in-out;
+}
+.bg-header {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+	padding: 3rem 1rem;
+}
+.bg-header .header-text h1 {
+	letter-spacing: 2px;
+}
+.bg-header .header-text h3 {
+	color: #f5c17e;
+	letter-spacing: 2px;
+}
+.bg-header .header-text h3,
+.bg-header .header-text h5 {
+	font-size: 1rem;
+	padding: 1.1rem 0 0;
+}
+#tribute-info {
+	padding: 1em;
+}
+.iqbal-info {
+	display: flex;
+	margin: 10px;
+}
+.iqbal-info .sec-1-left {
+	width: 620px;
+	margin: auto 10px;
+}
+.iqbal-info .sec-1-right {
+	width: 400px;
+}
+.iqbal-info .sec-1-right img {
+	height: 100%;
+	width: 100%;
+	/* object-fit: cover; */
+}
+
+/* Sections */
+.section-headings {
+	padding: 1rem 0;
+}
+#marriage li {
+	margin-left: 30px;
+}
+
+.footer {
+	/* min-height: 5rem; */
+	margin-top: 2rem;
+
+	height: 100%;
+	width: 100%;
+	padding: 1rem;
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+}
+.footer p {
+	line-height: 2rem;
+}
+.footer a {
+	color: #fff;
+}
+.footer a:hover {
+	color: #f5c17e;
+}
+
+/* Books */
+#poems {
+	padding: 1.4rem 0;
+}
+#poems .poems-title {
+	padding: 1rem 0;
+}
+#poems .poems-title + ul > li {
+	margin: auto 2rem;
+}
+@media screen and (max-width: 800px) {
+	.iqbal-info {
+		display: block;
+	}
+	.iqbal-info .sec-1-right {
+		width: 600px;
+		height: 350px;
+		margin: 10px auto;
+	}
+	.iqbal-info .sec-1-right img {
+		width: 100%;
+		/* object-fit: contain; */
+		height: 100%;
+	}
+}
